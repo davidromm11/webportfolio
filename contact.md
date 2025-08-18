@@ -18,7 +18,7 @@ hero_subtitle: "Whether you have a question about a blog post, want to collabora
       </div>
       <div class="contact-info">
         <h4>Email</h4>
-        <p>Best for detailed discussions</p>
+        <p>Best for discussions</p>
         <a href="mailto:davidromm11@gmail.com">davidromm11@gmail.com</a>
       </div>
     </div>
@@ -44,7 +44,7 @@ hero_subtitle: "Whether you have a question about a blog post, want to collabora
       </div>
       <div class="contact-info">
         <h4>LinkedIn</h4>
-        <p>Professional networking</p>
+        <p>Networking</p>
         <a href="https://linkedin.com/in/david-romm" target="_blank" rel="noopener">David Romm</a>
       </div>
     </div>

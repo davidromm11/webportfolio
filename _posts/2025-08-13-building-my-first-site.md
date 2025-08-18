@@ -6,7 +6,7 @@ author: David Romm
 description: 'My journey learning HTML and CSS to build this website from scratch, including the challenges and lessons learned along the way.'
 ---
 
-Hey there, welcome to my new website. As I begin my career, I plan on using this space to share projects, achievements, roadblocks, and thoughts. I'm not entirely sure what direction it will take, but that's part of the fun. I decided to code this site from scratch without any previous HTML or CSS experience. It was a fun way to learn the basics of two new languages, while building a platform to document and track my growth as I learn new things. In my first post (which you have found yourself reading), I'll walk you through the process of building the website and what I hope to do next. Thanks for checking it out!
+As I begin my career in IT, I plan on using this space to share projects, achievements, and thoughts. I decided to code this site from scratch without any previous HTML or CSS experience. It was a fun way to learn the basics of two new languages, while building a platform to document and track my growth as I learn. In my first post (which you have found yourself reading), I'll walk through the process of building the website and what I hope to do next.
 
 I recently spoke with a software developer who's been generous with advice, and also has a personal blog site. During our call, he encouraged me to start my own, so I got to work. Since I didn't know where to start, having no prior experience, I prompted AI for a logical roadmap from start (now) to finish (having a functional cloud hosted website).
 
@@ -36,4 +36,4 @@ At this point, I had a website I was happy with. All that needed to be done now 
 
 Through this small project I learned a lot, not just about HTML and CSS but about planning, adapting, and building something from scratch, which is exactly what this site will be about.
 
-**Final Edit:** The current state of the website was created using a static site generator, this process described did not produce the current state of the website.
+**Final Edit:** The current state of the website was created using a static site generator, this process described did not produce the current state of the website. Another note: Instead of copying and pasting css and html to different files, very easy to have an \_include folder to import code, keeps projects cleaner and simpler.

@@ -2,8 +2,8 @@
 layout: default
 title: Home
 hero: true
-hero_title: 'Welcome to my Blog'
-hero_subtitle: 'Where I document my exploration of IT. Join me on my journey.'
+hero_title: "David's Blog"
+hero_subtitle: 'Where I document my exploration of IT.'
 hero_cta:
   text: 'View all Posts'
   url: '/blog/'
@@ -55,4 +55,4 @@ hero_cta:
 {% endif %}
 ---
 
-_Thanks for stopping by! Feel free to [reach out](/contact/) if you have any questions, suggestions, or just want to connect._
+_Feel free to [reach out](/contact/) if you have any questions, suggestions, or just want to connect._
