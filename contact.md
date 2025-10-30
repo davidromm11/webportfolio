@@ -4,7 +4,6 @@ title: Contact
 description: Get in touch with me for collaborations, questions, or just to say hello.
 hero: true
 hero_title: "Let's Connect"
-hero_subtitle: "Whether you have a question about a blog post, want to collaborate on a project, or just want to chat about technology, I'm always happy to connect."
 ---
 
 <div class="contact-page">
