@@ -10,7 +10,6 @@ title: Contact
     <div class="contact-method">
       <div class="contact-info">
         <h4>Email</h4>
-        <p>Best for discussions</p>
         <a href="mailto:davidromm11@gmail.com">davidromm11@gmail.com</a>
       </div>
     </div>
@@ -26,10 +25,10 @@ title: Contact
     <div class="contact-method">
       <div class="contact-info">
         <h4>LinkedIn</h4>
-        <p>Networking</p>
         <a href="https://linkedin.com/in/david-romm" target="_blank" rel="noopener">David Romm</a>
       </div>
     </div>
+
   </div>
 
   <p>Looking forward to hearing from you.</p>

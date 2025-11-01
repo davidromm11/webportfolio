@@ -11,7 +11,7 @@ title: About
     
     <div class="author-info">
       <h2 class="author-name">David Romm</h2>
-      <p class="author-title">Data Science Graduate</p>
+      <p class="author-title"></p>
       
       <p class="author-description">
         I'm a recent Data Science graduate from St. Lawrence University with a passion for tech, especially cybersecurity. I'm currently spending time researching the field with the goal of building a career around it.
