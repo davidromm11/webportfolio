@@ -39,3 +39,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Add logger gem to fix Ruby 3.4+ warning
 gem "logger"
+
+gem 'bigdecimal'

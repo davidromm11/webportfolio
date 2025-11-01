@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Building My First Website from Scratch'
+title: 'Building A Website from Scratch'
 date: 2025-08-13
 author: David Romm
 description: 'My journey learning HTML and CSS to build this website from scratch, including the challenges and lessons learned along the way.'

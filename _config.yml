@@ -23,7 +23,7 @@ permalink: /:year/:month/:day/:title/
 nav_links:
   - title: Home
     url: /
-  - title: Blog
+  - title: Posts
     url: /blog/
   - title: About
     url: /about/

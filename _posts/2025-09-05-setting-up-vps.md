@@ -50,10 +50,10 @@ While my first site was a good learning exercise in raw HTML and CSS, I wanted s
 
 Jekyll takes Markdown and layouts, then builds them into static HTML files that a web server like Nginx can host. Here’s the basic workflow I used:
 
-1. `jekyll new myblog` — generates a new site with all the necessary files and folders.
-2. `bundle install` — installs the Ruby gems Jekyll depends on.
-3. `bundle exec jekyll build` — builds the site into a `_site` folder, which Nginx points to.
-4. `bundle exec jekyll serve` — runs a local preview server so I can see changes before pushing them live.
+1. `jekyll new myblog` generates a default new site with all the necessary files and folders.
+2. `bundle install` installs the Ruby gems Jekyll depends on.
+3. `bundle exec jekyll build` builds the site into a `_site` folder, which Nginx points to.
+4. `bundle exec jekyll serve` runs a local preview server so I can see changes before pushing them live.
 
 I created a Git repository and set up remote connections so that whenever I update the site locally, I can just push changes to my VPS and rebuild. This made deployment very smooth.
 
