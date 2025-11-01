@@ -11,79 +11,6 @@
       </div>
     </main>
 
-    {% include footer.html %}
-
-    <!-- Mobile menu toggle script -->
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-        const navMenu = document.querySelector('.nav-menu');
-        
-        if (mobileMenuToggle && navMenu) {
-          mobileMenuToggle.addEventListener('click', function() {
-            navMenu.classList.toggle('active');
-            mobileMenuToggle.classList.toggle('active');
-            document.body.classList.toggle('menu-open');
-          });
-
-          // Close menu when clicking outside
-          document.addEventListener('click', function(event) {
-            if (!mobileMenuToggle.contains(event.target) && !navMenu.contains(event.target)) {
-              navMenu.classList.remove('active');
-              mobileMenuToggle.classList.remove('active');
-              document.body.classList.remove('menu-open');
-            }
-          });
-
-          // Close menu when pressing Escape
-          document.addEventListener('keydown', function(event) {
-            if (event.key === 'Escape') {
-              navMenu.classList.remove('active');
-              mobileMenuToggle.classList.remove('active');
-              document.body.classList.remove('menu-open');
-            }
-          });
-        }
-
-        // Smooth scrolling for anchor links
-        const anchorLinks = document.querySelectorAll('a[href^="#"]');
-        anchorLinks.forEach(link => {
-          link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href');
-            const targetSection = document.querySelector(targetId);
-            
-            if (targetSection) {
-              targetSection.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-              });
-            }
-          });
-        });
-
-        // Add scroll-to-top functionality
-        const scrollToTop = document.querySelector('.scroll-to-top');
-        if (scrollToTop) {
-          window.addEventListener('scroll', function() {
-            if (window.pageYOffset > 300) {
-              scrollToTop.style.display = 'block';
-            } else {
-              scrollToTop.style.display = 'none';
-            }
-          });
-
-          scrollToTop.addEventListener('click', function(e) {
-            e.preventDefault();
-            window.scrollTo({
-              top: 0,
-              behavior: 'smooth'
-            });
-          });
-        }
-      });
-    </script>
-
     <!-- Google Analytics (if configured) -->
     {% if site.google_analytics %}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
@@ -94,5 +21,7 @@
         gtag('config', '{{ site.google_analytics }}');
       </script>
     {% endif %}
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
   </body>
 </html>
