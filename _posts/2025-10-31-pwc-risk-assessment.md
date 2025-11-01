@@ -24,7 +24,7 @@ Since this was my first risk assessment, I asked AI to help outline a basic step
 
 ---
 
-##Existing Process Overview
+## Existing Process Overview
 
 Here’s the summarized “normal” process flow provided by the client:
 
